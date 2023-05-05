@@ -1,0 +1,35 @@
+import java.util.*;
+
+iteratble interface
+   ---Collection 
+
+        --Set   [TreeSet | HashSet |LinkedHashSet]  (Unique)
+        --List 
+        --Queue
+
+
+TreeSet 
+  -- ascending order 
+ -- null not allowed
+ --different datatype not allowed
+ -- slow in processing 
+-- inherits SortedSet
+
+HashSet 
+   -- data is visble in random order 
+   --store data on basis of hashcode
+   -- fast in processing 
+  -- null allowed
+  -- different Datatype can work but not recomended 
+
+LinkedHashSet 
+  -- data is in insertion order 
+ -- better then Treeset 
+-- null allowed 
+
+
+
+ 
+ 
+
+
